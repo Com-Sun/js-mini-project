@@ -23,7 +23,7 @@ body{
 }
 
 .header{
-    background: url(../img/bg.jpg); /* 배경 설정 */
+    background: url(../img/bg3.jpg); /* 배경 설정 */
     background-position: center; /* 배경 위치 중앙 */
     background-size: cover; /* 배경 크기 : 그림 하나를 꽉차게 */
     height:700px; /* header 높이는 700px */
