@@ -7,7 +7,7 @@
 <body>
 <div class="container">
     <section id="content">
-        <form action="">
+        <form action="list.html" onsubmit = "return isValidForm()" >
             <h1>Register Form</h1>
             <div>
                 <input type="text" placeholder="Username" required="" id="username" />
@@ -16,14 +16,16 @@
                 <input type="password" placeholder="패스워드" required="" id="password" />
             </div>
             <div>
-                <input type="password" placeholder="패스워드 확인" required="" id="" />
+                <input type="password" placeholder="패스워드 확인" required="" id="password2" />
             </div>
             <div>
-                <input type="submit" value="Log in" />
+                <input type="submit" value="회원가입" id="submit" />
             </div>
         </form><!-- form -->
 
     </section><!-- content -->
 </div><!-- container -->
+
+<script src="./js/register.js"></script>
 </body>
 </html>
